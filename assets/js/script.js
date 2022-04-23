@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Java Developer', 'Pepsi W', 'Cats are cool', 'Certified skidder', 'bro why are you still here'];
+  let text = ['Line 1', 'Line 2', 'Line 3', 'Line 4', 'Line 5'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'Creatinq on top W';
+  document.title = 'YOUR NAME';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
